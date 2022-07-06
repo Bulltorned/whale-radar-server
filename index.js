@@ -42,7 +42,7 @@ const collections = {
 }
 
 const app = express();
-const port = 4000;
+const port = 3000;
 
 app.use(cors());
 
@@ -64,3 +64,4 @@ app.get("/user", (req, res) => {
 app.listen(port, () => 
     console.log(`Whale Radar is running on ${port}`)
 );
+
